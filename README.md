@@ -6,7 +6,7 @@
 
 🌟  This is the official repository for the paper "[Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark]()", which contains generation and evaluation code for the **EMMA** benchmark.
 
-[[🌐 Homepage](https://emma-benchmark.github.io/)] [[🤗EMMA](https://huggingface.co/datasets/mm-reasoning/EMMA)] [[🤗EMMA-mini](https://huggingface.co/datasets/mm-reasoning/EMMA)] [[📖 ArXiv Paper]()]
+[[🌐 Homepage](https://emma-benchmark.github.io/)] [[🤗EMMA](https://huggingface.co/datasets/luckychao/EMMA)] [[🤗EMMA-mini](https://huggingface.co/datasets/luckychao/EMMA-mini)] [[📖 ArXiv Paper]()]
 
 ## 👀 About EMMA
 
