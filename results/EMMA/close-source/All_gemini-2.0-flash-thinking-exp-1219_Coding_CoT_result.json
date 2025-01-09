@@ -1,0 +1,97 @@
+{
+  "average": {
+    "accuracy": 0.43439716312056736,
+    "correct": 245,
+    "total": 564
+  },
+  "subject": {
+    "Coding": {
+      "accuracy": 0.43439716312056736,
+      "correct": 245,
+      "total": 564
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.43439716312056736,
+      "correct": 245,
+      "total": 564
+    }
+  },
+  "category": {
+    "Coding": {
+      "Advanced Chart Type": {
+        "accuracy": 0.38768115942028986,
+        "correct": 107,
+        "total": 276
+      },
+      "Axis & Scale": {
+        "accuracy": 0.4351851851851852,
+        "correct": 47,
+        "total": 108
+      },
+      "Legend": {
+        "accuracy": 0.4375,
+        "correct": 42,
+        "total": 96
+      },
+      "Alignment, Orientation, & Position": {
+        "accuracy": 0.37222222222222223,
+        "correct": 67,
+        "total": 180
+      },
+      "Gridline": {
+        "accuracy": 0.5666666666666667,
+        "correct": 34,
+        "total": 60
+      },
+      "3D": {
+        "accuracy": 0.5462962962962963,
+        "correct": 59,
+        "total": 108
+      },
+      "Color & Texture": {
+        "accuracy": 0.4423076923076923,
+        "correct": 69,
+        "total": 156
+      },
+      "Marker, Line, & Cap": {
+        "accuracy": 0.3125,
+        "correct": 15,
+        "total": 48
+      },
+      "Polar": {
+        "accuracy": 0.3541666666666667,
+        "correct": 17,
+        "total": 48
+      },
+      "Data Reasoning": {
+        "accuracy": 0.6296296296296297,
+        "correct": 68,
+        "total": 108
+      }
+    }
+  },
+  "task": {
+    "Coding_Code Choose Vis": {
+      "accuracy": 0.43617021276595747,
+      "correct": 82,
+      "total": 188
+    },
+    "Coding_Vis Choose Code": {
+      "accuracy": 0.46808510638297873,
+      "correct": 88,
+      "total": 188
+    },
+    "Coding_Modify Without Image": {
+      "accuracy": 0.39361702127659576,
+      "correct": 37,
+      "total": 94
+    },
+    "Coding_Modify With Image": {
+      "accuracy": 0.40425531914893614,
+      "correct": 38,
+      "total": 94
+    }
+  }
+}

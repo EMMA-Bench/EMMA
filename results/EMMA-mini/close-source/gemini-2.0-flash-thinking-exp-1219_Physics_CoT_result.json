@@ -1,0 +1,51 @@
+{
+  "average": {
+    "accuracy": 0.57,
+    "correct": 57,
+    "total": 100
+  },
+  "subject": {
+    "Physics": {
+      "accuracy": 0.57,
+      "correct": 57,
+      "total": 100
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.57,
+      "correct": 57,
+      "total": 100
+    }
+  },
+  "category": {
+    "Physics": {
+      "Path Tracing": {
+        "accuracy": 0.6153846153846154,
+        "correct": 8,
+        "total": 13
+      },
+      "3d Field Simulation": {
+        "accuracy": 0.42857142857142855,
+        "correct": 9,
+        "total": 21
+      },
+      "Multi-hop Visual Reasoning": {
+        "accuracy": 0.5,
+        "correct": 11,
+        "total": 22
+      },
+      "Visual Decomposition Simulation": {
+        "accuracy": 0.6363636363636364,
+        "correct": 14,
+        "total": 22
+      },
+      "Graph Reasoning": {
+        "accuracy": 0.6818181818181818,
+        "correct": 15,
+        "total": 22
+      }
+    }
+  },
+  "task": {}
+}

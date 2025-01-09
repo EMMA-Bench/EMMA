@@ -1,0 +1,198 @@
+{
+  "average": {
+    "accuracy": 0.3350071736011478,
+    "correct": 934,
+    "total": 2788
+  },
+  "subject": {
+    "Chemistry": {
+      "accuracy": 0.3520408163265306,
+      "correct": 414,
+      "total": 1176
+    },
+    "Math": {
+      "accuracy": 0.31390134529147984,
+      "correct": 280,
+      "total": 892
+    },
+    "Coding": {
+      "accuracy": 0.3191489361702128,
+      "correct": 180,
+      "total": 564
+    },
+    "Physics": {
+      "accuracy": 0.38461538461538464,
+      "correct": 60,
+      "total": 156
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.40559440559440557,
+      "correct": 812,
+      "total": 2002
+    },
+    "open-ended": {
+      "accuracy": 0.15521628498727735,
+      "correct": 122,
+      "total": 786
+    }
+  },
+  "category": {
+    "Chemistry": {
+      "Reaction Simulation Pro": {
+        "accuracy": 0.4380952380952381,
+        "correct": 46,
+        "total": 105
+      },
+      "Structure Recognition": {
+        "accuracy": 0.5506329113924051,
+        "correct": 261,
+        "total": 474
+      },
+      "Graph Reasoning": {
+        "accuracy": 0.3333333333333333,
+        "correct": 3,
+        "total": 9
+      },
+      "Reaction Simulation": {
+        "accuracy": 0.4772727272727273,
+        "correct": 63,
+        "total": 132
+      },
+      "Knowledge-based counting": {
+        "accuracy": 0.08991228070175439,
+        "correct": 41,
+        "total": 456
+      }
+    },
+    "Math": {
+      "2D Transformation": {
+        "accuracy": 0.2894736842105263,
+        "correct": 77,
+        "total": 266
+      },
+      "3D Spatial Simulation": {
+        "accuracy": 0.21818181818181817,
+        "correct": 60,
+        "total": 275
+      },
+      "Path Tracing": {
+        "accuracy": 0.1889763779527559,
+        "correct": 24,
+        "total": 127
+      },
+      "Multi-hop Visual Object Counting": {
+        "accuracy": 0.8064516129032258,
+        "correct": 100,
+        "total": 124
+      },
+      "Pattern Inference": {
+        "accuracy": 0.19,
+        "correct": 19,
+        "total": 100
+      }
+    },
+    "Coding": {
+      "Advanced Chart Type": {
+        "accuracy": 0.2971014492753623,
+        "correct": 82,
+        "total": 276
+      },
+      "Axis & Scale": {
+        "accuracy": 0.3333333333333333,
+        "correct": 36,
+        "total": 108
+      },
+      "Legend": {
+        "accuracy": 0.2916666666666667,
+        "correct": 28,
+        "total": 96
+      },
+      "Alignment, Orientation, & Position": {
+        "accuracy": 0.2833333333333333,
+        "correct": 51,
+        "total": 180
+      },
+      "Gridline": {
+        "accuracy": 0.4666666666666667,
+        "correct": 28,
+        "total": 60
+      },
+      "3D": {
+        "accuracy": 0.39814814814814814,
+        "correct": 43,
+        "total": 108
+      },
+      "Color & Texture": {
+        "accuracy": 0.3141025641025641,
+        "correct": 49,
+        "total": 156
+      },
+      "Marker, Line, & Cap": {
+        "accuracy": 0.25,
+        "correct": 12,
+        "total": 48
+      },
+      "Polar": {
+        "accuracy": 0.25,
+        "correct": 12,
+        "total": 48
+      },
+      "Data Reasoning": {
+        "accuracy": 0.46296296296296297,
+        "correct": 50,
+        "total": 108
+      }
+    },
+    "Physics": {
+      "Path Tracing": {
+        "accuracy": 0.38461538461538464,
+        "correct": 5,
+        "total": 13
+      },
+      "3d Field Simulation": {
+        "accuracy": 0.43243243243243246,
+        "correct": 16,
+        "total": 37
+      },
+      "Multi-hop Visual Reasoning": {
+        "accuracy": 0.42424242424242425,
+        "correct": 14,
+        "total": 33
+      },
+      "Visual Decomposition Simulation": {
+        "accuracy": 0.3829787234042553,
+        "correct": 18,
+        "total": 47
+      },
+      "Graph Reasoning": {
+        "accuracy": 0.2692307692307692,
+        "correct": 7,
+        "total": 26
+      }
+    }
+  },
+  "task": {
+    "Coding_Code Choose Vis": {
+      "accuracy": 0.30851063829787234,
+      "correct": 58,
+      "total": 188
+    },
+    "Coding_Vis Choose Code": {
+      "accuracy": 0.31382978723404253,
+      "correct": 59,
+      "total": 188
+    },
+    "Coding_Modify Without Image": {
+      "accuracy": 0.35106382978723405,
+      "correct": 33,
+      "total": 94
+    },
+    "Coding_Modify With Image": {
+      "accuracy": 0.3191489361702128,
+      "correct": 30,
+      "total": 94
+    }
+  }
+}
