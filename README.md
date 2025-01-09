@@ -59,13 +59,13 @@ You can download both two datasets by the following command (Taking downloading 
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("mm-reasoning/EMMA", "Math", split="test")
+dataset = load_dataset("luckychao/EMMA", "Math", split="test")
 ```
 
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("mm-reasoning/EMMA-mini", "Math", split="test")
+dataset = load_dataset("luckychao/EMMA-mini", "Math", split="test")
 ```
 
 ### Data Format
