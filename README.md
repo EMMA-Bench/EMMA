@@ -24,29 +24,9 @@ EMMA is composed of 2,788 problems, of which 1,796 are newly constructed, across
 Our evaluation of state-of-the-art MLLMs on EMMA reveals significant limitations in handling complex multimodal and multi-step reasoning tasks, with even advanced techniques like Chain-of-Thought prompting and test-time compute scaling underperforming. 
 These findings underscore the need for improved multimodal architectures and training paradigms to close the gap between human and model reasoning in multimodality. 
 
-## 🏆 Leaderboard 🏆
+## 🏆 Leaderboard
 
-<table>
-	<tr>
-        <th rowspan="2"> </th>
-        <th rowspan="2"> CoT </th>
-	    <th colspan="5">EMMA</th>
-        <th colspan="5">EMMA-mini</th>
-	</tr >
-	<tr>
-	    <th > Math </th> <th > Phys. </th> <th > Chem. </th> <th > Coding </th> <th > Overall </th>
-        <th > Math </th> <th > Phys. </th> <th > Chem. </th> <th > Coding </th> <th > Overall </th>
-	</tr >
-	<tr >
-	    <td>Random choice </td> <td> - </td> <td> 14.01 </td> <td> 25.64 </td> <td> 16.50 </td> <td> 25.71 </td> <td> 18.08 </td> <td> 13.00 </td> <td> 23.00 </td> <td> 27.00 </td> <td> 28.00 </td> <td> 22.75</td>
-	</tr>
-	<tr>
-	    <td>Human Expert </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> - </td> <td> 75.00 </td> <td> 64.50 </td> <td> 86.00 </td> <td> 85.50 </td> <td> 77.75</td>
-	</tr>
-	<tr>
-	    <td>Claude 3.5 Sonnet </td> <td> ❎ </td> <td> 25.34 </td> <td> 33.97 </td> <td> 40.90 </td> <td> 38.65 </td> <td> 35.08 </td> <td> 23.00 </td> <td> 34.00 </td> <td> 44.00 </td> <td> 35.00 </td> <td> 34.00</td>
-	</tr>
-</table>
+The leaderboard is available [here](https://emma-benchmark.github.io/).
 
 ## 📖 Dataset Usage
 
