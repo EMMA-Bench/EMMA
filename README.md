@@ -26,7 +26,7 @@ These findings underscore the need for improved multimodal architectures and tra
 
 ## 🏆 Leaderboard
 
-The leaderboard is available [here](https://emma-benchmark.github.io/).
+The leaderboard is available [here](https://emma-benchmark.github.io/#leaderboard).
 
 ## 📖 Dataset Usage
 
@@ -146,5 +146,13 @@ This step will compute overall accuracy as well as accuracy for each subject, ca
 If you find our benchmark useful in your research, please consider citing this BibTex:
 
 ```
-
+@misc{hao2025mllmsreasonmultimodalityemma,
+      title={Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark}, 
+      author={Yunzhuo Hao and Jiawei Gu and Huichen Will Wang and Linjie Li and Zhengyuan Yang and Lijuan Wang and Yu Cheng},
+      year={2025},
+      eprint={2501.05444},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.05444}, 
+}
 ```
