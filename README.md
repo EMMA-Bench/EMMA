@@ -143,7 +143,7 @@ This step will compute overall accuracy as well as accuracy for each subject, ca
 
 ## 📝Citation
 
-If you find this benchmark useful in your research, please consider citing this BibTex:
+If you find our benchmark useful in your research, please consider citing this BibTex:
 
 ```
 
