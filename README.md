@@ -146,10 +146,10 @@ This step will compute overall accuracy as well as accuracy for each subject, ca
 If you find our benchmark useful in your research, please consider citing this BibTex:
 
 ```
-@article{gu2024survey,
-  title={A Survey on LLM-as-a-Judge},
-  author={Gu, Jiawei and Jiang, Xuhui and Shi, Zhichao and Tan, Hexiang and Zhai, Xuehao and Xu, Chengjin and Li, Wei and Shen, Yinghan and Ma, Shengjie and Liu, Honghao and others},
-  journal={arXiv preprint arXiv:2411.15594},
-  year={2024}
+@article{hao2025can,
+  title={Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark},
+  author={Hao, Yunzhuo and Gu, Jiawei and Wang, Huichen Will and Li, Linjie and Yang, Zhengyuan and Wang, Lijuan and Cheng, Yu},
+  journal={arXiv preprint arXiv:2501.05444},
+  year={2025}
 }
 ```
