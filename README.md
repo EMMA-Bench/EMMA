@@ -114,7 +114,7 @@ Close-source Model:
 ### Answer Evaluation
 
 Once all the model outputs have been generated, execute the `evaluate.py` function to extract the short answer text from the detailed response and evaluate the correctness of the answers.
-We offer two evaluation methods: **fast-eval** and **LLMs-eval**. The fast-eval method employs rule-based extraction for quicker processing, while the LLMs-eval method leverages advanced models like GPT-4o to enhance precision in extraction and evaluation.
+We offer two evaluation methods: **Fast-eval** and **LLMs-eval**. The fast-eval method employs rule-based extraction for quicker processing, while the LLMs-eval method leverages advanced models like GPT-4o to enhance precision in extraction and evaluation.
 
 Fast-extract:
 ```
