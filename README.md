@@ -82,7 +82,7 @@ You can generate responses of these models by using the following commands:
 Open-source Model:
 ```
  python generate_response.py \
- --dataset_name 'mm-reasoning/EMMA' \
+ --dataset_name 'luckychao/EMMA' \
  --split 'test' \
  --subject 'Math' 'Physics' 'Chemistry' 'Coding' \
  --strategy 'CoT' \
@@ -98,7 +98,7 @@ Close-source Model:
 
 ```
  python generate_response.py \
- --dataset_name 'mm-reasoning/EMMA' \
+ --dataset_name 'luckychao/EMMA' \
  --split 'test' \
  --subject 'Math' 'Physics' 'Chemistry' 'Coding' \
  --strategy 'CoT' \
@@ -107,7 +107,7 @@ Close-source Model:
  --api_key '' \
  --output_path 'path_to_output_file' \
  --max_tokens 4096 \
- --temperature 0.7 \
+ --temperature 0 \
  --save_every 20
 ```
 

@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 import logging
 from tqdm import tqdm
 
@@ -11,7 +12,7 @@ from data_utils import load_yaml, verify_response, build_query
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA')
+    parser.add_argument('--dataset_name', type=str, default='luckychao/EMMA')
     parser.add_argument('--subject', nargs='+', type=str, required=True)
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
@@ -50,7 +51,7 @@ def main():
             from models import llava
             model = llava.Llava_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 
-        if 'qwen2-vl' in args.model_path.lower():
+        if 'qwen2-vl' or 'qvq' in args.model_path.lower():
             from models import qwen
             model = qwen.Qwen_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 

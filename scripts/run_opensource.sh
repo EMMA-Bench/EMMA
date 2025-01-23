@@ -1,6 +1,6 @@
 #!/bin/bash
  python generate_response.py \
- --dataset_name 'mm-reasoning/EMMA' \
+ --dataset_name 'luckychao/EMMA' \
  --split 'test' \
  --subject 'Math' 'Physics' 'Chemistry' 'Coding' \
  --strategy 'CoT' \
