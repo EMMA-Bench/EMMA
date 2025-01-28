@@ -1,14 +1,12 @@
 import argparse
 import json
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 import logging
 from tqdm import tqdm
 
 from datasets import load_dataset, concatenate_datasets
 
 from data_utils import load_yaml, verify_response, build_query
-
 
 def main():
     parser = argparse.ArgumentParser()
