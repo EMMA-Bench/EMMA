@@ -37,7 +37,7 @@ The leaderboard is available [here](https://emma-benchmark.github.io/#leaderboar
 
 ### Data Downloading
 
-To create a more balanced subset of EMMA, we randomly sample 400 questions (100 per subject) from the benchmark and get EMMA-mini[🤗]().
+To create a more balanced subset of EMMA, we randomly sample 400 questions (100 per subject) from the benchmark and get EMMA-mini[🤗](https://huggingface.co/datasets/luckychao/EMMA-mini).
 
 You can download both two datasets by the following command (Taking downloading math data as an example):
 
