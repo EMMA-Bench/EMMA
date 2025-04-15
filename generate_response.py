@@ -53,6 +53,10 @@ def main():
             from models import qwen
             model = qwen.Qwen_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 
+        if 'qwen2.5-vl' in args.model_path.lower():
+            from models import qwen
+            model = qwen.Qwen2_5_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
+
         if 'internvl' in args.model_path.lower():
             from models import internvl
             model = internvl.Internvl_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
