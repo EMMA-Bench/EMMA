@@ -113,7 +113,7 @@ def load_image(image, input_size=448, max_num=12):
 
 
 def process_query(sample):
-    query = sample['scoring_query']
+    query = sample['query']
     matches = re.findall(r"<(image_\d+)>", query)
     modified_query = re.sub(r"<image_\d+>", "<image>", query)
     images = []
