@@ -1,0 +1,134 @@
+{
+  "average": {
+    "accuracy": 0.36675824175824173,
+    "correct": 534,
+    "total": 1456
+  },
+  "subject": {
+    "Coding": {
+      "accuracy": 0.374113475177305,
+      "correct": 211,
+      "total": 564
+    },
+    "Math": {
+      "accuracy": 0.36210762331838564,
+      "correct": 323,
+      "total": 892
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.3925399644760213,
+      "correct": 442,
+      "total": 1126
+    },
+    "open-ended": {
+      "accuracy": 0.2787878787878788,
+      "correct": 92,
+      "total": 330
+    }
+  },
+  "category": {
+    "Coding": {
+      "Advanced Chart Type": {
+        "accuracy": 0.37318840579710144,
+        "correct": 103,
+        "total": 276
+      },
+      "Axis & Scale": {
+        "accuracy": 0.3611111111111111,
+        "correct": 39,
+        "total": 108
+      },
+      "Legend": {
+        "accuracy": 0.23958333333333334,
+        "correct": 23,
+        "total": 96
+      },
+      "Alignment, Orientation, & Position": {
+        "accuracy": 0.37222222222222223,
+        "correct": 67,
+        "total": 180
+      },
+      "Gridline": {
+        "accuracy": 0.4,
+        "correct": 24,
+        "total": 60
+      },
+      "3D": {
+        "accuracy": 0.46296296296296297,
+        "correct": 50,
+        "total": 108
+      },
+      "Color & Texture": {
+        "accuracy": 0.4358974358974359,
+        "correct": 68,
+        "total": 156
+      },
+      "Marker, Line, & Cap": {
+        "accuracy": 0.20833333333333334,
+        "correct": 10,
+        "total": 48
+      },
+      "Polar": {
+        "accuracy": 0.375,
+        "correct": 18,
+        "total": 48
+      },
+      "Data Reasoning": {
+        "accuracy": 0.5092592592592593,
+        "correct": 55,
+        "total": 108
+      }
+    },
+    "Math": {
+      "2D Transformation": {
+        "accuracy": 0.2857142857142857,
+        "correct": 76,
+        "total": 266
+      },
+      "3D Spatial Simulation": {
+        "accuracy": 0.2290909090909091,
+        "correct": 63,
+        "total": 275
+      },
+      "Path Tracing": {
+        "accuracy": 0.1889763779527559,
+        "correct": 24,
+        "total": 127
+      },
+      "Multi-hop Visual Object Counting": {
+        "accuracy": 0.9274193548387096,
+        "correct": 115,
+        "total": 124
+      },
+      "Pattern Inference": {
+        "accuracy": 0.45,
+        "correct": 45,
+        "total": 100
+      }
+    }
+  },
+  "task": {
+    "Coding_Code Choose Vis": {
+      "accuracy": 0.324468085106383,
+      "correct": 61,
+      "total": 188
+    },
+    "Coding_Vis Choose Code": {
+      "accuracy": 0.39893617021276595,
+      "correct": 75,
+      "total": 188
+    },
+    "Coding_Modify Without Image": {
+      "accuracy": 0.425531914893617,
+      "correct": 40,
+      "total": 94
+    },
+    "Coding_Modify With Image": {
+      "accuracy": 0.3723404255319149,
+      "correct": 35,
+      "total": 94
+    }
+  }
+}
