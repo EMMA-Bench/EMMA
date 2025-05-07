@@ -9,7 +9,7 @@
 [[🌐 Homepage](https://emma-benchmark.github.io/)] [[🤗EMMA](https://huggingface.co/datasets/luckychao/EMMA)] [[🤗EMMA-mini](https://huggingface.co/datasets/luckychao/EMMA-mini)] [[📖 ArXiv Paper](https://www.arxiv.org/abs/2501.05444)]
 
 ## 💥 News 
-- **[2025.5.1]**  🎉Our paper has been accepted for **spotlight(3%)** on **ICML 2025**!
+- **[2025.5.1]**  🎉Our paper has been accepted for **spotlight(2.6%)** on **ICML 2025**!
 - **[2025.1.23]** 🔍 We've updated the leaderboard with the results of the [QVQ-72B-Preview](https://huggingface.co/Qwen/QVQ-72B-Preview) model included.
 - **[2025.1.10]** Our dataset is now accessible at [Huggingface Datasets](https://huggingface.co/datasets/luckychao/EMMA).
 - **[2025.1.10]** Our paper is now accessible at https://arxiv.org/abs/2501.05444.
