@@ -49,7 +49,7 @@ def main():
             from models import llava
             model = llava.Llava_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 
-        if 'qwen2-vl' or 'qvq' in args.model_path.lower():
+        if 'qwen2-vl' in args.model_path.lower() or 'qvq' in args.model_path.lower():
             from models import qwen
             model = qwen.Qwen_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 
